@@ -1,0 +1,6 @@
+framework module Pods_TIoTThridSDK_Example {
+  umbrella header "Pods-TIoTThridSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

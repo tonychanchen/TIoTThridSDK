@@ -1,42 +1,35 @@
-#
-# Be sure to run `pod lib lint TIoTThridSDK.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'TIoTThridSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TIoTThridSDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = ENV['LIB_VERSION'] || '1.0.0'
+  s.summary          = '该仓库为方便个人仓库构建使用，如有其他需求还请从官网下载原SDK'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+在CI构建中，有些SDK没有提供供方便pod集成使用，在此仓库提供个聚合SDK以便更好的支持CI。
                        DESC
-
-  s.homepage         = 'https://github.com/tonychanchen@gmail.com/TIoTThridSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+                       
+  s.homepage         = 'https://github.com/tonychanchen/TIoTThridSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tonychanchen@gmail.com' => 'tonychanchen@gmail.com' }
-  s.source           = { :git => 'https://github.com/tonychanchen@gmail.com/TIoTThridSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/tonychanchen/TIoTThridSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'TIoTThridSDK/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+      
+  s.subspec 'TPNS-iOS' do |ss|
+    ss.source_files          = 'TIoTThridSDK/TPNS-iOS/Classes/**/*'
+    ss.vendored_libraries    = 'TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a'
+    ss.vendored_frameworks   = 'TIoTThridSDK/TPNS-iOS/XGMTACloud.framework'
+    ss.frameworks            = "CFNetwork", "SystemConfiguration", "CoreTelephony", "CoreGraphics", "Foundation", "UserNotifications", "CoreData"
+    ss.libraries             = "z", "sqlite3"
+  end
   
-  # s.resource_bundles = {
-  #   'TIoTThridSDK' => ['TIoTThridSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'WechatOpenSDK_NoPay' do |ss|
+    ss.source_files          = 'TIoTThridSDK/WechatOpenSDK_NoPay/Classes/**/*'
+    ss.vendored_libraries    = 'TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a'
+    ss.frameworks            = "Security", "CoreGraphics", "WebKit", "SystemConfiguration", "CoreTelephony", "Foundation", "UIKit"
+    ss.libraries             = 'c++', 'sqlite3', 'z'
+    ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+  end
+  
 end
+
+

@@ -1,0 +1,18 @@
+PODS:
+  - TIoTThridSDK (1.0.0):
+    - TIoTThridSDK/WechatOpenSDK_NoPay (= 1.0.0)
+  - TIoTThridSDK/WechatOpenSDK_NoPay (1.0.0)
+
+DEPENDENCIES:
+  - TIoTThridSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TIoTThridSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TIoTThridSDK: 16ebefca6061c76992f7501931eb9aacf185efc6
+
+PODFILE CHECKSUM: ea31a1733669df800c155d70e0bec47bc9b146be
+
+COCOAPODS: 1.9.3

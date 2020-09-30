@@ -1,0 +1,1 @@
+../../../../../TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApiObject.h

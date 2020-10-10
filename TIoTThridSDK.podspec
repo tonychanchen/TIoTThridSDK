@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TIoTThridSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '该仓库为方便个人仓库构建使用，如有其他需求还请从官网下载原SDK'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
      
   s.subspec 'TPNS-iOS' do |ss|
     ss.source_files          = 'TIoTThridSDK/TPNS-iOS/Classes/**/*'
-    ss.vendored_libraries    = 'TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a'
+    ss.vendored_libraries    = 'TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a', 'TIoTThridSDK/TPNS-iOS/libxgidfa.a', 'TIoTThridSDK/TPNS-iOS/libXGExtension.a'
     ss.vendored_frameworks   = 'TIoTThridSDK/TPNS-iOS/XGMTACloud.framework'
     ss.frameworks            = "CFNetwork", "SystemConfiguration", "CoreTelephony", "CoreGraphics", "Foundation", "UserNotifications", "CoreData"
     ss.libraries             = "z", "sqlite3"

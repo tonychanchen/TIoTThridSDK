@@ -59,8 +59,8 @@
       didReceiveNotificationResponse:(nullable UNNotificationResponse *)response
                withCompletionHandler:(nonnull void (^)(void))completionHandler __IOS_AVAILABLE(10.0)__OSX_AVAILABLE(10.14);
 
-/// 统一点击回调
-/// @param response 如果iOS>10/macOS>10.14则为UNNotificationResponse，低于目标版本则为NSDictionary
+/// 统一点击回调(TPNS SDK1.2.7.1+)
+/// @param response 如果iOS 10+/macOS 10.14+则为UNNotificationResponse，低于目标版本则为NSDictionary
 - (void)xgPushDidReceiveNotificationResponse:(nonnull id)response withCompletionHandler:(nonnull void (^)(void))completionHandler;
 
 /**
@@ -96,7 +96,7 @@
 - (void)xgPushDidSetBadge:(BOOL)isSuccess error:(nullable NSError *)error;
 
 /**
- @brief 设备token注册TPNS服务的回调（1.2.5.3以下版本使用）
+ @brief 设备token注册TPNS服务的回调
 
  @param deviceToken APNs 生成的Device Token
  @param error 错误信息
@@ -104,7 +104,7 @@
 - (void)xgPushDidRegisteredDeviceToken:(nullable NSString *)deviceToken error:(nullable NSError *)error;
 
 /**
- @brief 注册推送服务回调（1.2.5.3及以上版本推荐使用）
+ @brief 注册推送服务回调(TPNS SDK1.2.6.0+)
 
  @param deviceToken APNs 生成的Device Token
  @param xgToken TPNS 生成的 Token，推送消息时需要使用此值。TPNS 维护此值与APNs 的 Device Token的映射关系
@@ -113,7 +113,7 @@
 - (void)xgPushDidRegisteredDeviceToken:(nullable NSString *)deviceToken xgToken:(nullable NSString *)xgToken error:(nullable NSError *)error;
 
 /**
-@brief 注册推送服务失败回调
+@brief 注册推送服务失败回调(TPNS SDK1.2.7.1+)
 
 @param error 注册失败错误信息
 */
@@ -128,7 +128,6 @@
 - (void)xgPushLog:(nullable NSString *)logInfo;
 
 @end
-
 
 #pragma mark - ********账号类型枚举，用于账号操作时区分账号类型********
 
@@ -155,7 +154,6 @@ typedef NS_ENUM(NSUInteger, XGPushTokenAccountType) {
     XGPushTokenAccountTypeJINGDONG = (1014),      // 京东
     XGPushTokenAccountTypeLINKIN = (1015)         // LINKIN
 };
-
 
 #pragma mark - ********XGPush类，提供注册及反注册，设置角标等方法********
 
@@ -220,8 +218,9 @@ typedef NS_ENUM(NSUInteger, XGPushTokenAccountType) {
  @note 接口所需参数必须要正确填写，反之TPNS服务将不能正确为应用推送消息
  */
 - (void)startXGWithAccessID:(uint32_t)accessID accessKey:(nonnull NSString *)accessKey delegate:(nullable id<XGPushDelegate>)delegate;
-- (void)startXGWithAppID:(uint32_t)appID appKey:(nonnull NSString *)appKey delegate:(nullable id<XGPushDelegate>)delegate  __deprecated_msg("You should use startXGWithAccessID instead");
-
+- (void)startXGWithAppID:(uint32_t)appID
+                  appKey:(nonnull NSString *)appKey
+                delegate:(nullable id<XGPushDelegate>)delegate __deprecated_msg("You should use startXGWithAccessID instead");
 
 /**
  @brief 停止TPNS服务
@@ -249,7 +248,6 @@ typedef NS_ENUM(NSUInteger, XGPushTokenAccountType) {
  */
 - (void)reportXGNotificationResponse:(nullable UNNotificationResponse *)response __IOS_AVAILABLE(10.0)__OSX_AVAILABLE(10.14)
                                          __deprecated_msg("You should no longer call it, SDK handles it automatically.");
-
 
 /**
  @brief 上报当前App角标数到TPNS服务器
@@ -289,7 +287,6 @@ typedef NS_ENUM(NSUInteger, XGPushTokenAccountType) {
 
 @end
 
-
 /**
  @brief 设备token绑定的类型，绑定指定类型之后，就可以在TPNS前端按照指定的类型进行指定范围的推送
 
@@ -302,7 +299,6 @@ typedef NS_ENUM(NSUInteger, XGPushTokenBindType) {
     XGPushTokenBindTypeAccount = (1 << 0),
     XGPushTokenBindTypeTag = (1 << 1)
 };
-
 
 #pragma mark - ********XGPushTokenManager代理，用于接收账号和标签操作的回调********
 
@@ -367,7 +363,6 @@ typedef NS_ENUM(NSUInteger, XGPushTokenBindType) {
 - (void)xgPushDidClearAllIdentifiers:(XGPushTokenBindType)type error:(nullable NSError *)error;
 
 @end
-
 
 #pragma mark - ********XGPushTokenManager，提供账号和标签的绑定与解绑操作********
 
@@ -475,8 +470,17 @@ typedef NS_ENUM(NSUInteger, XGPushTokenBindType) {
  */
 - (void)clearAllIdentifiers:(XGPushTokenBindType)type;
 
-@end
 
+#pragma mark - ********数据分析相关，需要集成XGMTACloud.framework********
+/**
+@brief 自定义事件上报
+
+@param eventID 事件ID
+@param kvs 键值对，例如@{ @"para1": @"value1" }
+*/
+- (void)trackCustomKeyValueEvent:(nonnull NSString *)eventID kvs:(nullable NSDictionary *)kvs;
+
+@end
 
 #pragma mark - ********XGNotificationAction，可以在通知栏中点击的事件对象********
 
@@ -496,8 +500,8 @@ typedef NS_ENUM(NSUInteger, XGNotificationActionOptions) {
 };
 
 /**
-* @brief 定义了一个可以在通知栏中点击的事件对象
-*/
+ * @brief 定义了一个可以在通知栏中点击的事件对象
+ */
 @interface XGNotificationAction : NSObject
 
 /**
@@ -528,7 +532,6 @@ typedef NS_ENUM(NSUInteger, XGNotificationActionOptions) {
 
 @end
 
-
 #pragma mark - ********XGNotificationCategory，管理一组关联的Action，以实现不同分类对应不同的Actions********
 
 /**
@@ -545,8 +548,8 @@ typedef NS_OPTIONS(NSUInteger, XGNotificationCategoryOptions) {
 };
 
 /**
-* 通知栏中消息指定的分类，分类主要用来管理一组关联的Action，以实现不同分类对应不同的Actions
-*/
+ * 通知栏中消息指定的分类，分类主要用来管理一组关联的Action，以实现不同分类对应不同的Actions
+ */
 @interface XGNotificationCategory : NSObject
 
 /**
@@ -585,7 +588,6 @@ typedef NS_OPTIONS(NSUInteger, XGNotificationCategoryOptions) {
 @property (readonly, nonatomic) XGNotificationCategoryOptions options;
 
 @end
-
 
 #pragma mark - ********XGNotificationConfigure，配置消息通知的样式和行为特性********
 

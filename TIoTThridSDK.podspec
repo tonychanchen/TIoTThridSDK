@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TIoTThridSDK'
-  s.version          = ENV['LIB_VERSION'] || '1.0.0'
+  s.version          = '1.0.0'
   s.summary          = '该仓库为方便个人仓库构建使用，如有其他需求还请从官网下载原SDK'
 
   s.description      = <<-DESC
@@ -12,24 +12,26 @@ Pod::Spec.new do |s|
   s.author           = { 'tonychanchen@gmail.com' => 'tonychanchen@gmail.com' }
   s.source           = { :git => 'https://github.com/tonychanchen/TIoTThridSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
-      
+  s.ios.deployment_target = '10.0'     
+#  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+     
   s.subspec 'TPNS-iOS' do |ss|
     ss.source_files          = 'TIoTThridSDK/TPNS-iOS/Classes/**/*'
     ss.vendored_libraries    = 'TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a'
     ss.vendored_frameworks   = 'TIoTThridSDK/TPNS-iOS/XGMTACloud.framework'
     ss.frameworks            = "CFNetwork", "SystemConfiguration", "CoreTelephony", "CoreGraphics", "Foundation", "UserNotifications", "CoreData"
     ss.libraries             = "z", "sqlite3"
+    ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
-  
+
   s.subspec 'WechatOpenSDK_NoPay' do |ss|
     ss.source_files          = 'TIoTThridSDK/WechatOpenSDK_NoPay/Classes/**/*'
     ss.vendored_libraries    = 'TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a'
     ss.frameworks            = "Security", "CoreGraphics", "WebKit", "SystemConfiguration", "CoreTelephony", "Foundation", "UIKit"
     ss.libraries             = 'c++', 'sqlite3', 'z'
-    ss.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+    ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
   
 end
-
-

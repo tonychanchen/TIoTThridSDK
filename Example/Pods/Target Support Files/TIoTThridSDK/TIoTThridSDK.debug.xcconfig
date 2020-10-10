@@ -1,8 +1,10 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TIoTThridSDK
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TIoTThridSDK/TPNS-iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TIoTThridSDK" "${PODS_ROOT}/Headers/Public"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TIoTThridSDK/WechatOpenSDK_NoPay"
-OTHER_LDFLAGS = $(inherited) -all_load -l"WeChatSDK" -l"c++" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TIoTThridSDK/TPNS-iOS" "${PODS_ROOT}/../../TIoTThridSDK/WechatOpenSDK_NoPay"
+OTHER_LDFLAGS = $(inherited) -l"WeChatSDK" -l"XG-SDK-Cloud" -l"c++" -l"sqlite3" -l"z" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

@@ -20,6 +20,31 @@
   },
   "subspecs": [
     {
+      "name": "TPNS-iOS",
+      "source_files": "TIoTThridSDK/TPNS-iOS/Classes/**/*",
+      "vendored_libraries": "TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a",
+      "vendored_frameworks": "TIoTThridSDK/TPNS-iOS/XGMTACloud.framework",
+      "frameworks": [
+        "CFNetwork",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CoreGraphics",
+        "Foundation",
+        "UserNotifications",
+        "CoreData"
+      ],
+      "libraries": [
+        "z",
+        "sqlite3"
+      ],
+      "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+      },
+      "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+      }
+    },
+    {
       "name": "WechatOpenSDK_NoPay",
       "source_files": "TIoTThridSDK/WechatOpenSDK_NoPay/Classes/**/*",
       "vendored_libraries": "TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a",
@@ -38,7 +63,10 @@
         "z"
       ],
       "pod_target_xcconfig": {
-        "OTHER_LDFLAGS": "-all_load"
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+      },
+      "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
       }
     }
   ]

@@ -35,25 +35,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0175282787B3C5366DFE56EF2D1896D7 /* TIoTThridSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.release.xcconfig; sourceTree = "<group>"; };
+		0EFB908957D88AAFC21D4670535A8206 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
+		28ECCB1AF5C4B7179BCF94CC36DE28BC /* XGMTACloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XGMTACloud.framework; path = "TIoTThridSDK/TPNS-iOS/XGMTACloud.framework"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38C5F77AFA5AB9F0C520A43600C846E3 /* XGPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGPush.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGPush.h"; sourceTree = "<group>"; };
+		3B62C71F42A67C856E9BE775FA440DA0 /* XGForFreeVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGForFreeVersion.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGForFreeVersion.h"; sourceTree = "<group>"; };
+		4FC64D86AE8426EF86CE664C654B3B1F /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a; sourceTree = "<group>"; };
+		54B89EC7C7053D285899E53C5C3E4980 /* TIoTThridSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TIoTThridSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5631E5B3E0C90BC274D8DDEABC20E99B /* Pods-TIoTThridSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIoTThridSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		5C8C94018FF5B8756B8098D4711AA55B /* TIoTThridSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.debug.xcconfig; sourceTree = "<group>"; };
-		65D26764EC8D56CB5BDC4AE26B7CF2A2 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
+		5FAEC0CC1BF37BBC2D41FE2918F6DCE3 /* libXG-SDK-Cloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libXG-SDK-Cloud.a"; path = "TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a"; sourceTree = "<group>"; };
+		627E6F81108454799304A18D330F11C0 /* XGPushPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGPushPrivate.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGPushPrivate.h"; sourceTree = "<group>"; };
+		640FDB0BA7B3EDE898996A3DB2C9ED37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		65656250D8802A26964AA49EAF9284A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		68ED8887B9E83B26374844D9C5457945 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApiObject.h; sourceTree = "<group>"; };
 		6AA6DD9CC84B5AF2243ADAE6580EC3D1 /* Pods-TIoTThridSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIoTThridSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		842127B12CB2785A1D3045DCB11B808F /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApi.h; sourceTree = "<group>"; };
-		8853599E1A44089C94AE75AA3D1C2664 /* TIoTThridSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TIoTThridSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		810E619E226459A6AA0711583C324635 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApi.h; sourceTree = "<group>"; };
 		9969C90F8D31D8BCBB9F3EDDC9A759FC /* Pods-TIoTThridSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIoTThridSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		9B71E55DCFB29EA60CC1AE3BED085332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B74EC414B8ADE44B425064041CE52297 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a; sourceTree = "<group>"; };
-		C9996D1313BC66942AAFDE2E26224279 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB74B38C769548D3500C3E0C6F0E059B /* TIoTThridSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.release.xcconfig; sourceTree = "<group>"; };
 		D0B665CF2AEFCBA57EA16940F6902A5D /* Pods-TIoTThridSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIoTThridSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D46C21CB1AFC8E326E29F4A10A688724 /* Pods-TIoTThridSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIoTThridSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		D4AA51246B549C5F1F62BEAFBB0598E4 /* Pods_TIoTThridSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIoTThridSDK_Example.framework; path = "Pods-TIoTThridSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D19A4DC7004836FBFAC14E6CB2DA33 /* Pods-TIoTThridSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIoTThridSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DE69CA6C9DEC6489A2ED8739BAC403A0 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApiObject.h; sourceTree = "<group>"; };
 		E1A6831F26B34FB48DCFEE38102C8604 /* Pods-TIoTThridSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIoTThridSDK_Example.modulemap"; sourceTree = "<group>"; };
+		ECD477A7DD7F3323CFABF1D593C8741C /* TIoTThridSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.debug.xcconfig; sourceTree = "<group>"; };
 		F2D00C706FFCBD849C28AD23C8EF815F /* Pods-TIoTThridSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIoTThridSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,43 +90,25 @@
 			path = "Target Support Files/Pods-TIoTThridSDK_Example";
 			sourceTree = "<group>";
 		};
-		2C6B7F7E229D4B22D82B12392D11F8E5 /* Pod */ = {
+		144388FF7B41E3CCE422FF78AAE4F410 /* TIoTThridSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C9996D1313BC66942AAFDE2E26224279 /* LICENSE */,
-				9B71E55DCFB29EA60CC1AE3BED085332 /* README.md */,
-				8853599E1A44089C94AE75AA3D1C2664 /* TIoTThridSDK.podspec */,
+				752D3C1E78318861A01443B436BD9CCB /* Pod */,
+				B9E5459494621B9A77581DA7D4548F89 /* Support Files */,
+				F58933DB9B318765C6A5F363A0DA2BCB /* TPNS-iOS */,
+				896BD219AA14B04654B5B9A462B93537 /* WechatOpenSDK_NoPay */,
 			);
-			name = Pod;
+			name = TIoTThridSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		4347E93BC65A9C6BF1A89DDBA3E41936 /* Support Files */ = {
+		3CB944CADCBE257F94CCED1B94EA19CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C8C94018FF5B8756B8098D4711AA55B /* TIoTThridSDK.debug.xcconfig */,
-				0175282787B3C5366DFE56EF2D1896D7 /* TIoTThridSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TIoTThridSDK";
-			sourceTree = "<group>";
-		};
-		57495AE39958F0AC6B1FFF786FBE45CF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B74EC414B8ADE44B425064041CE52297 /* libWeChatSDK.a */,
+				5FAEC0CC1BF37BBC2D41FE2918F6DCE3 /* libXG-SDK-Cloud.a */,
+				28ECCB1AF5C4B7179BCF94CC36DE28BC /* XGMTACloud.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6F04181E62E8F1A89CDDF280201ACCAA /* WechatOpenSDK_NoPay */ = {
-			isa = PBXGroup;
-			children = (
-				65D26764EC8D56CB5BDC4AE26B7CF2A2 /* WechatAuthSDK.h */,
-				842127B12CB2785A1D3045DCB11B808F /* WXApi.h */,
-				DE69CA6C9DEC6489A2ED8739BAC403A0 /* WXApiObject.h */,
-				57495AE39958F0AC6B1FFF786FBE45CF /* Frameworks */,
-			);
-			name = WechatOpenSDK_NoPay;
 			sourceTree = "<group>";
 		};
 		7483E10BEF9F6CE5C27F434912957143 /* Targets Support Files */ = {
@@ -132,12 +119,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8F455C1824E275E990257190B7741F3B /* Development Pods */ = {
+		752D3C1E78318861A01443B436BD9CCB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E7E0D6E1A0E7ACA7647B98E081F5119F /* TIoTThridSDK */,
+				65656250D8802A26964AA49EAF9284A7 /* LICENSE */,
+				640FDB0BA7B3EDE898996A3DB2C9ED37 /* README.md */,
+				54B89EC7C7053D285899E53C5C3E4980 /* TIoTThridSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		896BD219AA14B04654B5B9A462B93537 /* WechatOpenSDK_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB908957D88AAFC21D4670535A8206 /* WechatAuthSDK.h */,
+				810E619E226459A6AA0711583C324635 /* WXApi.h */,
+				68ED8887B9E83B26374844D9C5457945 /* WXApiObject.h */,
+				D67A3AF9E5B46F90659203A0A0337354 /* Frameworks */,
+			);
+			name = WechatOpenSDK_NoPay;
+			sourceTree = "<group>";
+		};
+		A07EE67F6D583678E749046007300B3D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144388FF7B41E3CCE422FF78AAE4F410 /* TIoTThridSDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9E5459494621B9A77581DA7D4548F89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD477A7DD7F3323CFABF1D593C8741C /* TIoTThridSDK.debug.xcconfig */,
+				CB74B38C769548D3500C3E0C6F0E059B /* TIoTThridSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TIoTThridSDK";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -160,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8F455C1824E275E990257190B7741F3B /* Development Pods */,
+				A07EE67F6D583678E749046007300B3D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C7FD23A451C3031DC1DA342ED7509AC7 /* Products */,
 				7483E10BEF9F6CE5C27F434912957143 /* Targets Support Files */,
@@ -175,15 +193,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7E0D6E1A0E7ACA7647B98E081F5119F /* TIoTThridSDK */ = {
+		D67A3AF9E5B46F90659203A0A0337354 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C6B7F7E229D4B22D82B12392D11F8E5 /* Pod */,
-				4347E93BC65A9C6BF1A89DDBA3E41936 /* Support Files */,
-				6F04181E62E8F1A89CDDF280201ACCAA /* WechatOpenSDK_NoPay */,
+				4FC64D86AE8426EF86CE664C654B3B1F /* libWeChatSDK.a */,
 			);
-			name = TIoTThridSDK;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F58933DB9B318765C6A5F363A0DA2BCB /* TPNS-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B62C71F42A67C856E9BE775FA440DA0 /* XGForFreeVersion.h */,
+				38C5F77AFA5AB9F0C520A43600C846E3 /* XGPush.h */,
+				627E6F81108454799304A18D330F11C0 /* XGPushPrivate.h */,
+				3CB944CADCBE257F94CCED1B94EA19CD /* Frameworks */,
+			);
+			name = "TPNS-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -344,7 +371,7 @@
 		};
 		28B153F9E8913C87B366A5B2AFFC1E0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0175282787B3C5366DFE56EF2D1896D7 /* TIoTThridSDK.release.xcconfig */;
+			baseConfigurationReference = CB74B38C769548D3500C3E0C6F0E059B /* TIoTThridSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -393,7 +420,7 @@
 		};
 		89A6FA5E180A7B2651E3A6E0DEF82D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C8C94018FF5B8756B8098D4711AA55B /* TIoTThridSDK.debug.xcconfig */;
+			baseConfigurationReference = ECD477A7DD7F3323CFABF1D593C8741C /* TIoTThridSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -476,6 +503,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (

@@ -1,6 +1,0 @@
-framework module TIoTThridSDK {
-  umbrella header "TIoTThridSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

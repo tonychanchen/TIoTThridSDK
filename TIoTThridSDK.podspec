@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TIoTThridSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '该仓库为方便个人仓库构建使用，如有其他需求还请从官网下载原SDK'
 
   s.description      = <<-DESC
@@ -14,6 +14,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'     
 #  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+#  s.static_framework = true
+  s.default_subspec = 'Default'
+  
+  s.subspec 'Default' do |ss|
+    ss.source_files          = 'TIoTThridSDK/TIoTThridSDK.h'
+  end
      
   s.subspec 'TPNS-iOS' do |ss|
     ss.source_files          = 'TIoTThridSDK/TPNS-iOS/Classes/**/*'
@@ -30,6 +36,15 @@ Pod::Spec.new do |s|
     ss.vendored_libraries    = 'TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a'
     ss.frameworks            = "Security", "CoreGraphics", "WebKit", "SystemConfiguration", "CoreTelephony", "Foundation", "UIKit"
     ss.libraries             = 'c++', 'sqlite3', 'z'
+    ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  end
+  
+  s.subspec 'FFmpeg-iOS' do |ss|
+    ss.source_files        = 'TIoTThridSDK/FFmpeg-iOS/include/**/*.h'
+    ss.vendored_libraries  = 'TIoTThridSDK/FFmpeg-iOS/lib/*.a'
+    ss.frameworks            = "AudioToolbox", "AVFoundation", "OpenGLES", "CoreImage", "CoreGraphics", "CoreMedia", "VideoToolbox"
+    ss.libraries             = 'z', 'bz2', 'iconv'
     ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end

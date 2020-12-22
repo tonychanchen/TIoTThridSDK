@@ -1,20 +1,24 @@
 PODS:
-  - TIoTThridSDK (1.0.0):
-    - TIoTThridSDK/TPNS-iOS (= 1.0.0)
-    - TIoTThridSDK/WechatOpenSDK_NoPay (= 1.0.0)
-  - TIoTThridSDK/TPNS-iOS (1.0.0)
-  - TIoTThridSDK/WechatOpenSDK_NoPay (1.0.0)
+  - TIoTThridSDK (1.0.3):
+    - TIoTThridSDK/Default (= 1.0.3)
+  - TIoTThridSDK/Default (1.0.3)
+  - TIoTThridSDK/FFmpeg-iOS (1.0.3)
+  - TIoTThridSDK/TPNS-iOS (1.0.3)
+  - TIoTThridSDK/WechatOpenSDK_NoPay (1.0.3)
 
 DEPENDENCIES:
   - TIoTThridSDK (from `../`)
+  - TIoTThridSDK/FFmpeg-iOS (from `../`)
+  - TIoTThridSDK/TPNS-iOS (from `../`)
+  - TIoTThridSDK/WechatOpenSDK_NoPay (from `../`)
 
 EXTERNAL SOURCES:
   TIoTThridSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TIoTThridSDK: d31655c4a234215115a1966b1b0331dab6520755
+  TIoTThridSDK: 1c6ce56c5758c80f8d108dc93388219bee6d45c8
 
-PODFILE CHECKSUM: b68d02fa9886f65133ab61b7407b008a90d4efc5
+PODFILE CHECKSUM: 45e4ccba4c707466925b310b4bcbb04795f8c8cf
 
 COCOAPODS: 1.9.3

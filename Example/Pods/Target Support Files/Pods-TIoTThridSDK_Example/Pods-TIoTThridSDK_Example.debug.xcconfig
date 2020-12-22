@@ -3,8 +3,8 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TIoTThridSDK/TPNS-iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TIoTThridSDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TIoTThridSDK/TPNS-iOS" "${PODS_ROOT}/../../TIoTThridSDK/WechatOpenSDK_NoPay"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"XG-SDK-Cloud" -l"c++" -l"sqlite3" -l"z" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit" -framework "XGMTACloud"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TIoTThridSDK/FFmpeg-iOS/lib" "${PODS_ROOT}/../../TIoTThridSDK/TPNS-iOS" "${PODS_ROOT}/../../TIoTThridSDK/WechatOpenSDK_NoPay"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"XG-SDK-Cloud" -l"XGExtension" -l"avcodec" -l"avdevice" -l"avfilter" -l"avformat" -l"avutil" -l"bz2" -l"c++" -l"iconv" -l"sqlite3" -l"swresample" -l"swscale" -l"xgidfa" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreMedia" -framework "CoreTelephony" -framework "Foundation" -framework "OpenGLES" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "VideoToolbox" -framework "WebKit" -framework "XGMTACloud"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -27,3 +27,8 @@ tonychanchen@gmail.com, tonychanchen@gmail.com
 ## License
 
 TIoTThridSDK is available under the MIT license. See the LICENSE file for more info.
+
+
+pod lib lint --verbose --allow-warnings --use-libraries
+        
+pod trunk push --verbose --allow-warnings --use-libraries

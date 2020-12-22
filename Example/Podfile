@@ -5,6 +5,9 @@ platform :ios, '10.0'
 target 'TIoTThridSDK_Example' do
   pod 'TIoTThridSDK', :path => '../'
 
+  pod 'TIoTThridSDK/TPNS-iOS', :path => '../'
+  pod 'TIoTThridSDK/WechatOpenSDK_NoPay', :path => '../'
+  pod 'TIoTThridSDK/FFmpeg-iOS', :path => '../'
 end
 
 post_install do |installer|

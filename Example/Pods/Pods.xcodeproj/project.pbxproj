@@ -35,31 +35,152 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EFB908957D88AAFC21D4670535A8206 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
-		28ECCB1AF5C4B7179BCF94CC36DE28BC /* XGMTACloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XGMTACloud.framework; path = "TIoTThridSDK/TPNS-iOS/XGMTACloud.framework"; sourceTree = "<group>"; };
+		01D9ADE70AD838FD4EB0B5CACF0A9260 /* timecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timecode.h; path = "TIoTThridSDK/FFmpeg-iOS/include/timecode.h"; sourceTree = "<group>"; };
+		01DCAA64AFD819F1E7130DBBD4874263 /* vda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vda.h; path = "TIoTThridSDK/FFmpeg-iOS/include/vda.h"; sourceTree = "<group>"; };
+		021078F80F87CDA514043102A27C281D /* imgutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgutils.h; path = "TIoTThridSDK/FFmpeg-iOS/include/imgutils.h"; sourceTree = "<group>"; };
+		06ADA23F97664D0AA6946178D59AC9B4 /* videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videotoolbox.h; path = "TIoTThridSDK/FFmpeg-iOS/include/videotoolbox.h"; sourceTree = "<group>"; };
+		07F5F3C5414FE90B74C9D14D9703472C /* libavfilterVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavfilterVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libavfilterVersion.h"; sourceTree = "<group>"; };
+		086E8CD0149F28278F98E2CC23996B4D /* bswap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bswap.h; path = "TIoTThridSDK/FFmpeg-iOS/include/bswap.h"; sourceTree = "<group>"; };
+		09EF065C44F3FA064A38D43CD81AB17F /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "TIoTThridSDK/FFmpeg-iOS/include/md5.h"; sourceTree = "<group>"; };
+		0A1709BEA4317CD22EB9B40B55D684A1 /* cast5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast5.h; path = "TIoTThridSDK/FFmpeg-iOS/include/cast5.h"; sourceTree = "<group>"; };
+		0F442C9F6000EBFDDAD905DDEA91F4FD /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
+		123753B0AB9A81E9F48B785DF32C8182 /* twofish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = twofish.h; path = "TIoTThridSDK/FFmpeg-iOS/include/twofish.h"; sourceTree = "<group>"; };
+		14C741A6C131CE3EFA587063A8FC85B1 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "TIoTThridSDK/FFmpeg-iOS/include/camellia.h"; sourceTree = "<group>"; };
+		14EA7D5C0BE9DB97B16D889E415F37BC /* intfloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfloat.h; path = "TIoTThridSDK/FFmpeg-iOS/include/intfloat.h"; sourceTree = "<group>"; };
+		151DFD0A58C845828E784C580F4189E6 /* lzo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lzo.h; path = "TIoTThridSDK/FFmpeg-iOS/include/lzo.h"; sourceTree = "<group>"; };
+		179E683A73F404CA26BD334C193ADB45 /* avdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdevice.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avdevice.h"; sourceTree = "<group>"; };
+		17B1DB40F7F02C84D694849895ACD9E2 /* avconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avconfig.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avconfig.h"; sourceTree = "<group>"; };
+		182D27F066946DD13DE4FF35DD5D7D7E /* xtea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xtea.h; path = "TIoTThridSDK/FFmpeg-iOS/include/xtea.h"; sourceTree = "<group>"; };
+		199398FABA81FE31DA2E0B9B09ABDD17 /* libswscaleVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libswscaleVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libswscaleVersion.h"; sourceTree = "<group>"; };
+		1C07EA03D8A13D21AED46D8FED13DFFE /* avfiltergraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfiltergraph.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avfiltergraph.h"; sourceTree = "<group>"; };
+		1C5267E5AB0CCB1CB13F207DD52E7781 /* hwcontext_vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vdpau.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_vdpau.h"; sourceTree = "<group>"; };
+		1E34BAE99A1E947606CFA02FEC7F5A00 /* pixelutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixelutils.h; path = "TIoTThridSDK/FFmpeg-iOS/include/pixelutils.h"; sourceTree = "<group>"; };
+		1FFF3E010B7732B1E05689919D6C71A5 /* intreadwrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intreadwrite.h; path = "TIoTThridSDK/FFmpeg-iOS/include/intreadwrite.h"; sourceTree = "<group>"; };
+		203361B30DB88675C79FD2EE57F8DB28 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "TIoTThridSDK/FFmpeg-iOS/include/rc4.h"; sourceTree = "<group>"; };
+		20D65AA37EA1752615CEC1812B0B41E7 /* pixdesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixdesc.h; path = "TIoTThridSDK/FFmpeg-iOS/include/pixdesc.h"; sourceTree = "<group>"; };
+		210554A1E2611B00B49B1AD438FB6DC7 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "TIoTThridSDK/FFmpeg-iOS/include/dict.h"; sourceTree = "<group>"; };
+		22499DF4083A2BF78EA6B1BE30C00AE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		23420D75BE18C6F405CD0F72F93A3AF2 /* motion_vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = motion_vector.h; path = "TIoTThridSDK/FFmpeg-iOS/include/motion_vector.h"; sourceTree = "<group>"; };
+		251AA5ADE1C54EB14460C181F7E695EB /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "TIoTThridSDK/FFmpeg-iOS/include/blowfish.h"; sourceTree = "<group>"; };
+		2767E47F330348C5F263CBFC77FDE088 /* libavdevice.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavdevice.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libavdevice.a"; sourceTree = "<group>"; };
+		2988743A5D5E3AFA5FFB58B2718AAA74 /* dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dxva2.h; path = "TIoTThridSDK/FFmpeg-iOS/include/dxva2.h"; sourceTree = "<group>"; };
+		2A6DD2C090B5BE4360E690E09290C72B /* avstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avstring.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avstring.h"; sourceTree = "<group>"; };
+		2BAD45892BA75946FB8F4453B54CCF60 /* hwcontext_videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_videotoolbox.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_videotoolbox.h"; sourceTree = "<group>"; };
+		2BE9D7AB0E38E4AED85A2944BAEB442D /* XGMTACloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XGMTACloud.framework; path = "TIoTThridSDK/TPNS-iOS/XGMTACloud.framework"; sourceTree = "<group>"; };
+		2D6A043A7F8A1B639557DEF55531FA56 /* parseutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseutils.h; path = "TIoTThridSDK/FFmpeg-iOS/include/parseutils.h"; sourceTree = "<group>"; };
+		30EE053669765606BDFE3DC3E42A594A /* random_seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_seed.h; path = "TIoTThridSDK/FFmpeg-iOS/include/random_seed.h"; sourceTree = "<group>"; };
+		3104EA6FA33010C93CB4FDE8EAE61120 /* hwcontext_drm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_drm.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_drm.h"; sourceTree = "<group>"; };
+		3153DD7C2BF626C1538A431AC1307EF7 /* avfft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfft.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avfft.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38C5F77AFA5AB9F0C520A43600C846E3 /* XGPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGPush.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGPush.h"; sourceTree = "<group>"; };
-		3B62C71F42A67C856E9BE775FA440DA0 /* XGForFreeVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGForFreeVersion.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGForFreeVersion.h"; sourceTree = "<group>"; };
-		4FC64D86AE8426EF86CE664C654B3B1F /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a; sourceTree = "<group>"; };
-		54B89EC7C7053D285899E53C5C3E4980 /* TIoTThridSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TIoTThridSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33C191862ADCF84FC567A8BC57A31CB0 /* buffersrc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersrc.h; path = "TIoTThridSDK/FFmpeg-iOS/include/buffersrc.h"; sourceTree = "<group>"; };
+		366EE94657D8F69FD368EA670E429C36 /* mediacodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mediacodec.h; path = "TIoTThridSDK/FFmpeg-iOS/include/mediacodec.h"; sourceTree = "<group>"; };
+		36F9D4A24B5869CBA89B1DECFA1A3ABA /* hwcontext_vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vaapi.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_vaapi.h"; sourceTree = "<group>"; };
+		37A95FE6333CE70E6E21A7C744562640 /* vorbis_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vorbis_parser.h; path = "TIoTThridSDK/FFmpeg-iOS/include/vorbis_parser.h"; sourceTree = "<group>"; };
+		39AE2B91FBB8D0C6501BE891A6B045D2 /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = display.h; path = "TIoTThridSDK/FFmpeg-iOS/include/display.h"; sourceTree = "<group>"; };
+		3B2D14DE3F153721DBD7B837846107FE /* mastering_display_metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastering_display_metadata.h; path = "TIoTThridSDK/FFmpeg-iOS/include/mastering_display_metadata.h"; sourceTree = "<group>"; };
+		3CFF72034EE33B7BD656E910CB718468 /* timestamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timestamp.h; path = "TIoTThridSDK/FFmpeg-iOS/include/timestamp.h"; sourceTree = "<group>"; };
+		3E1D6A34BC078C82785DDBF231BD65EE /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = TIoTThridSDK/WechatOpenSDK_NoPay/libWeChatSDK.a; sourceTree = "<group>"; };
+		414656856C6ECB3C4961DB8F3790AEFE /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = "TIoTThridSDK/FFmpeg-iOS/include/error.h"; sourceTree = "<group>"; };
+		41EE24A9643234B508109326F4734CF4 /* dv_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dv_profile.h; path = "TIoTThridSDK/FFmpeg-iOS/include/dv_profile.h"; sourceTree = "<group>"; };
+		428504B7EAB6D05D3E3F1D16DB48C401 /* spherical.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = spherical.h; path = "TIoTThridSDK/FFmpeg-iOS/include/spherical.h"; sourceTree = "<group>"; };
+		43A679878222CFD51AA8419AD145B1F6 /* inttypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inttypes.h; path = "TIoTThridSDK/FFmpeg-iOS/include/inttypes.h"; sourceTree = "<group>"; };
+		45939893BF0112E07BA5F66EAD01B16D /* file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file.h; path = "TIoTThridSDK/FFmpeg-iOS/include/file.h"; sourceTree = "<group>"; };
+		46E7B67E87C9D6F7ACDBDB9F7A8A7389 /* avio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avio.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avio.h"; sourceTree = "<group>"; };
+		4979EE67C90F449505F5E67C5009D6BF /* lfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfg.h; path = "TIoTThridSDK/FFmpeg-iOS/include/lfg.h"; sourceTree = "<group>"; };
+		4999280D83073797DBB71EC19A67468B /* dirac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dirac.h; path = "TIoTThridSDK/FFmpeg-iOS/include/dirac.h"; sourceTree = "<group>"; };
+		4B0666FD4342240198CA1051FF9B1BDD /* ffversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffversion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/ffversion.h"; sourceTree = "<group>"; };
+		4B83952842918642CE25AAADC4A52D50 /* audio_fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_fifo.h; path = "TIoTThridSDK/FFmpeg-iOS/include/audio_fifo.h"; sourceTree = "<group>"; };
+		4D7D8533267871E64B4269F88AA925E7 /* avassert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avassert.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avassert.h"; sourceTree = "<group>"; };
+		4E3F97F0508E25D89181E5C0E60BBF5B /* TIoTThridSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TIoTThridSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4FC09EF519664E34082712A3DD605EE3 /* ffmpeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffmpeg.h; path = "TIoTThridSDK/FFmpeg-iOS/include/ffmpeg.h"; sourceTree = "<group>"; };
+		50BDBE438F0D0C2F676693A1CBADBEB6 /* adler32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adler32.h; path = "TIoTThridSDK/FFmpeg-iOS/include/adler32.h"; sourceTree = "<group>"; };
+		51981E2461C90598C40277F547564B1C /* hwcontext_qsv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_qsv.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_qsv.h"; sourceTree = "<group>"; };
+		5322D83484E395948F509DBD32AEF9AE /* libavformatVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavformatVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libavformatVersion.h"; sourceTree = "<group>"; };
+		5393E04051C6AF0075E32EA89185DEA6 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = "TIoTThridSDK/FFmpeg-iOS/include/common.h"; sourceTree = "<group>"; };
 		5631E5B3E0C90BC274D8DDEABC20E99B /* Pods-TIoTThridSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIoTThridSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		5FAEC0CC1BF37BBC2D41FE2918F6DCE3 /* libXG-SDK-Cloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libXG-SDK-Cloud.a"; path = "TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a"; sourceTree = "<group>"; };
-		627E6F81108454799304A18D330F11C0 /* XGPushPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGPushPrivate.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGPushPrivate.h"; sourceTree = "<group>"; };
-		640FDB0BA7B3EDE898996A3DB2C9ED37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		65656250D8802A26964AA49EAF9284A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		68ED8887B9E83B26374844D9C5457945 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApiObject.h; sourceTree = "<group>"; };
+		60F1E845D96A35FC8A6CF33678B6F832 /* rational.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rational.h; path = "TIoTThridSDK/FFmpeg-iOS/include/rational.h"; sourceTree = "<group>"; };
+		627668B71295717153027BE6AF7ADB3D /* libavformat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavformat.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libavformat.a"; sourceTree = "<group>"; };
 		6AA6DD9CC84B5AF2243ADAE6580EC3D1 /* Pods-TIoTThridSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIoTThridSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		810E619E226459A6AA0711583C324635 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApi.h; sourceTree = "<group>"; };
+		6DA0A120C592009E6B3CC4C943F46462 /* avutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avutil.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avutil.h"; sourceTree = "<group>"; };
+		6DE3FC751DE9B7CC9F8DA02C92F390D3 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hash.h"; sourceTree = "<group>"; };
+		6FCAB43F01EF6FFA1A2DAAD3A816910B /* fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = "TIoTThridSDK/FFmpeg-iOS/include/fifo.h"; sourceTree = "<group>"; };
+		736BD8D0E2534287E36EE008663ABEE3 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "TIoTThridSDK/FFmpeg-iOS/include/tree.h"; sourceTree = "<group>"; };
+		76721C6A67F2B17F4E03AE88E4F34DFA /* TIoTThridSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.debug.xcconfig; sourceTree = "<group>"; };
+		77EC35568191564CDAFD218E94715B28 /* libavfilter.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavfilter.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libavfilter.a"; sourceTree = "<group>"; };
+		78AFD37087395CE791D92E9C6F81F99F /* libswresample.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswresample.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libswresample.a"; sourceTree = "<group>"; };
+		797DD861A0434DA81D1F7BD8F0BB16F2 /* macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macros.h; path = "TIoTThridSDK/FFmpeg-iOS/include/macros.h"; sourceTree = "<group>"; };
+		7BB61D4A1206ABEA356240AEACC1C035 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C36361F3829C4BB81D68D33C1D06753 /* hwcontext_d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_d3d11va.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_d3d11va.h"; sourceTree = "<group>"; };
+		7C591C1B33BDBF7288A88957294303E6 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "TIoTThridSDK/FFmpeg-iOS/include/aes.h"; sourceTree = "<group>"; };
+		7CACCD834FACAC1D9608851C521F9386 /* stereo3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo3d.h; path = "TIoTThridSDK/FFmpeg-iOS/include/stereo3d.h"; sourceTree = "<group>"; };
+		81EB2D2102AE04AC77BD6F36C2228662 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "TIoTThridSDK/FFmpeg-iOS/include/ripemd.h"; sourceTree = "<group>"; };
+		86ADF39463A56F8C719F8CFCB6940A9F /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "TIoTThridSDK/FFmpeg-iOS/include/des.h"; sourceTree = "<group>"; };
+		874ABED7598FD58107A0E98853C82F5E /* jni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jni.h; path = "TIoTThridSDK/FFmpeg-iOS/include/jni.h"; sourceTree = "<group>"; };
+		8B057CAA7EC6182D18B19DAD09362733 /* libavcodec.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavcodec.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
+		8DDA493550330281007DF1C68C4D575F /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = "TIoTThridSDK/FFmpeg-iOS/include/frame.h"; sourceTree = "<group>"; };
+		8EDD4C8BA807B2335D83FCD0433214C1 /* libXG-SDK-Cloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libXG-SDK-Cloud.a"; path = "TIoTThridSDK/TPNS-iOS/libXG-SDK-Cloud.a"; sourceTree = "<group>"; };
+		93F905FCE70525E5637CD9F182204235 /* sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha512.h; path = "TIoTThridSDK/FFmpeg-iOS/include/sha512.h"; sourceTree = "<group>"; };
+		94616B3F3FA6C5598C38EA490ADD2992 /* avformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avformat.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avformat.h"; sourceTree = "<group>"; };
+		957B190B784B9F5C8FEE4EFAD0EE5476 /* XGPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGPush.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGPush.h"; sourceTree = "<group>"; };
+		96B0C54938F295CBF4E14412B3476B6B /* libavutil.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavutil.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libavutil.a"; sourceTree = "<group>"; };
+		9771B11B9B2B52E1356B169B7357411F /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = "TIoTThridSDK/FFmpeg-iOS/include/log.h"; sourceTree = "<group>"; };
+		98F15E62623C2705CCA6429C03019361 /* replaygain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = replaygain.h; path = "TIoTThridSDK/FFmpeg-iOS/include/replaygain.h"; sourceTree = "<group>"; };
 		9969C90F8D31D8BCBB9F3EDDC9A759FC /* Pods-TIoTThridSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIoTThridSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		9A541B77DE74C23DF26382A298C6DAD0 /* mathematics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathematics.h; path = "TIoTThridSDK/FFmpeg-iOS/include/mathematics.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB74B38C769548D3500C3E0C6F0E059B /* TIoTThridSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.release.xcconfig; sourceTree = "<group>"; };
+		9DECC968077F97E8240AA89F1A764B99 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "TIoTThridSDK/FFmpeg-iOS/include/buffer.h"; sourceTree = "<group>"; };
+		9EBF9895726D9086DBCD009F9962F1EF /* libavcodecVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavcodecVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libavcodecVersion.h"; sourceTree = "<group>"; };
+		A05E3932A8B886B1B4FFBCD925AAA461 /* avfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfilter.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avfilter.h"; sourceTree = "<group>"; };
+		A0D97DE36CD9AE017DFAFFB215D27A1A /* XGForFreeVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGForFreeVersion.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGForFreeVersion.h"; sourceTree = "<group>"; };
+		A88EC5E978A58A80D8D66E70EA187C16 /* bprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bprint.h; path = "TIoTThridSDK/FFmpeg-iOS/include/bprint.h"; sourceTree = "<group>"; };
+		A899BD520EF1E457591451C4E470C1B0 /* libxgidfa.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libxgidfa.a; path = "TIoTThridSDK/TPNS-iOS/libxgidfa.a"; sourceTree = "<group>"; };
+		AEE56775EAFC7489BC197FCC8DA165A2 /* opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opt.h; path = "TIoTThridSDK/FFmpeg-iOS/include/opt.h"; sourceTree = "<group>"; };
+		AEE9DC0D4E07C1FECFABD83F8C4C90E9 /* aes_ctr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ctr.h; path = "TIoTThridSDK/FFmpeg-iOS/include/aes_ctr.h"; sourceTree = "<group>"; };
+		AF95CE1054934ED9BD563120AD4F1772 /* libXGExtension.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libXGExtension.a; path = "TIoTThridSDK/TPNS-iOS/libXGExtension.a"; sourceTree = "<group>"; };
+		B04CFFBA4019DEFC5F16E327A28B516C /* time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time.h; path = "TIoTThridSDK/FFmpeg-iOS/include/time.h"; sourceTree = "<group>"; };
+		B0F3594BCEAAB7FA15E7A69503212D64 /* libswscale.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswscale.a; path = "TIoTThridSDK/FFmpeg-iOS/lib/libswscale.a"; sourceTree = "<group>"; };
+		B1D97657BAC1982E77962562D97EA4E8 /* channel_layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_layout.h; path = "TIoTThridSDK/FFmpeg-iOS/include/channel_layout.h"; sourceTree = "<group>"; };
+		B1F45C79BC444B130AD563B1302729E1 /* buffersink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersink.h; path = "TIoTThridSDK/FFmpeg-iOS/include/buffersink.h"; sourceTree = "<group>"; };
+		B3999AACE621C99F26A7B23D10D3642E /* vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdpau.h; path = "TIoTThridSDK/FFmpeg-iOS/include/vdpau.h"; sourceTree = "<group>"; };
+		B4251050060ED11FFEF23D4E931ED00A /* mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem.h; path = "TIoTThridSDK/FFmpeg-iOS/include/mem.h"; sourceTree = "<group>"; };
+		B5DB273EC9D0001D530551C7AA906EB0 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApi.h; sourceTree = "<group>"; };
+		BB9DC917E531E2A96A09318E5F06257B /* hwcontext_dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_dxva2.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_dxva2.h"; sourceTree = "<group>"; };
+		BF950B1B8D9E305FB3ECA0265771CBC0 /* d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = d3d11va.h; path = "TIoTThridSDK/FFmpeg-iOS/include/d3d11va.h"; sourceTree = "<group>"; };
+		C73969C9EBDB723898DC7CD500772006 /* swscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swscale.h; path = "TIoTThridSDK/FFmpeg-iOS/include/swscale.h"; sourceTree = "<group>"; };
+		C8051252841A43BC7DA1C3B725216D6F /* avdct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdct.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avdct.h"; sourceTree = "<group>"; };
+		C844C613A4B97A73001C4148BCABEB34 /* threadmessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threadmessage.h; path = "TIoTThridSDK/FFmpeg-iOS/include/threadmessage.h"; sourceTree = "<group>"; };
+		CE79E2CA7DC1975D19876923A4A80F83 /* hwcontext_cuda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_cuda.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext_cuda.h"; sourceTree = "<group>"; };
+		CF1E1C463BD2A80A8E0AEEC3F373CD10 /* libavdeviceVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavdeviceVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libavdeviceVersion.h"; sourceTree = "<group>"; };
+		CF6127E63890BB7ED0FD634C11A5047D /* eval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eval.h; path = "TIoTThridSDK/FFmpeg-iOS/include/eval.h"; sourceTree = "<group>"; };
+		CFE06D02D92CED92632D29838429CD7B /* xvmc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xvmc.h; path = "TIoTThridSDK/FFmpeg-iOS/include/xvmc.h"; sourceTree = "<group>"; };
 		D0B665CF2AEFCBA57EA16940F6902A5D /* Pods-TIoTThridSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIoTThridSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2422A1B5460082BCF707AAD437B10A5 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "TIoTThridSDK/FFmpeg-iOS/include/sha.h"; sourceTree = "<group>"; };
+		D3F45F17FD3F75070C51D6389B29BF7A /* murmur3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = murmur3.h; path = "TIoTThridSDK/FFmpeg-iOS/include/murmur3.h"; sourceTree = "<group>"; };
 		D46C21CB1AFC8E326E29F4A10A688724 /* Pods-TIoTThridSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIoTThridSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		D4AA51246B549C5F1F62BEAFBB0598E4 /* Pods_TIoTThridSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIoTThridSDK_Example.framework; path = "Pods-TIoTThridSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5315D2DBA001EF83C81EEDD40B035E3 /* XGPushPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XGPushPrivate.h; path = "TIoTThridSDK/TPNS-iOS/Classes/XGPushPrivate.h"; sourceTree = "<group>"; };
+		D7E6F4A9BCEF879C4B79E353AC691A6D /* TIoTThridSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.release.xcconfig; sourceTree = "<group>"; };
+		D987F5B7CAF94C9A8478262A50BB1AAE /* crc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc.h; path = "TIoTThridSDK/FFmpeg-iOS/include/crc.h"; sourceTree = "<group>"; };
 		D9D19A4DC7004836FBFAC14E6CB2DA33 /* Pods-TIoTThridSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIoTThridSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DBA752FF2E37AA50E583BE3CDEAA4A79 /* libavutilVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavutilVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libavutilVersion.h"; sourceTree = "<group>"; };
+		DF3B60E9C24CE85FCBB83C163B5B6866 /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "TIoTThridSDK/FFmpeg-iOS/include/base64.h"; sourceTree = "<group>"; };
+		E0F0D3D8FDFC0B73CC6298DA1348AADD /* pixfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixfmt.h; path = "TIoTThridSDK/FFmpeg-iOS/include/pixfmt.h"; sourceTree = "<group>"; };
+		E1886B1E6BC8E32E1A604A3E2F13C12E /* TIoTThridSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIoTThridSDK.h; path = TIoTThridSDK/TIoTThridSDK.h; sourceTree = "<group>"; };
 		E1A6831F26B34FB48DCFEE38102C8604 /* Pods-TIoTThridSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIoTThridSDK_Example.modulemap"; sourceTree = "<group>"; };
-		ECD477A7DD7F3323CFABF1D593C8741C /* TIoTThridSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIoTThridSDK.debug.xcconfig; sourceTree = "<group>"; };
+		E36FF39189D6494EE03AA5FDD84B16B0 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hmac.h"; sourceTree = "<group>"; };
+		E5CEECE26A008562556F9DBA398DACA5 /* tea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tea.h; path = "TIoTThridSDK/FFmpeg-iOS/include/tea.h"; sourceTree = "<group>"; };
+		E701E654508FEA3FF806AC637CC7513B /* swresample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swresample.h; path = "TIoTThridSDK/FFmpeg-iOS/include/swresample.h"; sourceTree = "<group>"; };
+		E76DB3B0CBC0037129DB0F4B93417B13 /* samplefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplefmt.h; path = "TIoTThridSDK/FFmpeg-iOS/include/samplefmt.h"; sourceTree = "<group>"; };
+		E99EE0D6F4F1DFCE6AC9F6164AB6F860 /* vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vaapi.h; path = "TIoTThridSDK/FFmpeg-iOS/include/vaapi.h"; sourceTree = "<group>"; };
+		F15BF522A86D0E5A564E864ABBDDEF62 /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = "TIoTThridSDK/FFmpeg-iOS/include/attributes.h"; sourceTree = "<group>"; };
 		F2D00C706FFCBD849C28AD23C8EF815F /* Pods-TIoTThridSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIoTThridSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3D5D8D2FF8A1E9E7FFF885E6591793F /* libswresampleVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libswresampleVersion.h; path = "TIoTThridSDK/FFmpeg-iOS/include/libswresampleVersion.h"; sourceTree = "<group>"; };
+		F529D6DBFE28CB9D2D10D014C22CA13A /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = "TIoTThridSDK/FFmpeg-iOS/include/avcodec.h"; sourceTree = "<group>"; };
+		F5E15573C104DBDD5F1B57F98EFD2EA1 /* qsv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qsv.h; path = "TIoTThridSDK/FFmpeg-iOS/include/qsv.h"; sourceTree = "<group>"; };
+		F6C3B277AF26F94603D716E6D7A8353A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = TIoTThridSDK/WechatOpenSDK_NoPay/Classes/WXApiObject.h; sourceTree = "<group>"; };
+		FE349CF7668598F060C6F62A53E50AC8 /* hwcontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext.h; path = "TIoTThridSDK/FFmpeg-iOS/include/hwcontext.h"; sourceTree = "<group>"; };
+		FEB604B5B9D28A4E987EA0629C17D043 /* cpu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = "TIoTThridSDK/FFmpeg-iOS/include/cpu.h"; sourceTree = "<group>"; };
+		FF71928B4507557FB52B3CFB92808CAB /* downmix_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = downmix_info.h; path = "TIoTThridSDK/FFmpeg-iOS/include/downmix_info.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +195,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0652A0F6FB3FD07DAE27A408D9C67439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EDD4C8BA807B2335D83FCD0433214C1 /* libXG-SDK-Cloud.a */,
+				AF95CE1054934ED9BD563120AD4F1772 /* libXGExtension.a */,
+				A899BD520EF1E457591451C4E470C1B0 /* libxgidfa.a */,
+				2BE9D7AB0E38E4AED85A2944BAEB442D /* XGMTACloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		10E5E65A97AEFAA4501AEA4CB3E5F1F1 /* Pods-TIoTThridSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,25 +222,190 @@
 			path = "Target Support Files/Pods-TIoTThridSDK_Example";
 			sourceTree = "<group>";
 		};
-		144388FF7B41E3CCE422FF78AAE4F410 /* TIoTThridSDK */ = {
+		2051006C9FD594C18E51FFF619B2C2CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				752D3C1E78318861A01443B436BD9CCB /* Pod */,
-				B9E5459494621B9A77581DA7D4548F89 /* Support Files */,
-				F58933DB9B318765C6A5F363A0DA2BCB /* TPNS-iOS */,
-				896BD219AA14B04654B5B9A462B93537 /* WechatOpenSDK_NoPay */,
+				8B057CAA7EC6182D18B19DAD09362733 /* libavcodec.a */,
+				2767E47F330348C5F263CBFC77FDE088 /* libavdevice.a */,
+				77EC35568191564CDAFD218E94715B28 /* libavfilter.a */,
+				627668B71295717153027BE6AF7ADB3D /* libavformat.a */,
+				96B0C54938F295CBF4E14412B3476B6B /* libavutil.a */,
+				78AFD37087395CE791D92E9C6F81F99F /* libswresample.a */,
+				B0F3594BCEAAB7FA15E7A69503212D64 /* libswscale.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FEC38EE8712312152EE37A968053B28 /* TPNS-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0D97DE36CD9AE017DFAFFB215D27A1A /* XGForFreeVersion.h */,
+				957B190B784B9F5C8FEE4EFAD0EE5476 /* XGPush.h */,
+				D5315D2DBA001EF83C81EEDD40B035E3 /* XGPushPrivate.h */,
+				0652A0F6FB3FD07DAE27A408D9C67439 /* Frameworks */,
+			);
+			name = "TPNS-iOS";
+			sourceTree = "<group>";
+		};
+		33657966B140859EDACB55C64A6ED9EB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7BB61D4A1206ABEA356240AEACC1C035 /* LICENSE */,
+				22499DF4083A2BF78EA6B1BE30C00AE3 /* README.md */,
+				4E3F97F0508E25D89181E5C0E60BBF5B /* TIoTThridSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3AF17C97B7B6D8757370E1974E91674B /* TIoTThridSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3C71C93FF53F7CE78E734F8B14075FD1 /* Default */,
+				435636D5E1783B9CA25C20EE83E24456 /* FFmpeg-iOS */,
+				33657966B140859EDACB55C64A6ED9EB /* Pod */,
+				4BE5C372075D4ABA8793F9054E3E79BE /* Support Files */,
+				2FEC38EE8712312152EE37A968053B28 /* TPNS-iOS */,
+				C6DEADD058206CBB9390B855DCF41FE0 /* WechatOpenSDK_NoPay */,
 			);
 			name = TIoTThridSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3CB944CADCBE257F94CCED1B94EA19CD /* Frameworks */ = {
+		3C71C93FF53F7CE78E734F8B14075FD1 /* Default */ = {
 			isa = PBXGroup;
 			children = (
-				5FAEC0CC1BF37BBC2D41FE2918F6DCE3 /* libXG-SDK-Cloud.a */,
-				28ECCB1AF5C4B7179BCF94CC36DE28BC /* XGMTACloud.framework */,
+				E1886B1E6BC8E32E1A604A3E2F13C12E /* TIoTThridSDK.h */,
 			);
-			name = Frameworks;
+			name = Default;
+			sourceTree = "<group>";
+		};
+		435636D5E1783B9CA25C20EE83E24456 /* FFmpeg-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				50BDBE438F0D0C2F676693A1CBADBEB6 /* adler32.h */,
+				7C591C1B33BDBF7288A88957294303E6 /* aes.h */,
+				AEE9DC0D4E07C1FECFABD83F8C4C90E9 /* aes_ctr.h */,
+				F15BF522A86D0E5A564E864ABBDDEF62 /* attributes.h */,
+				4B83952842918642CE25AAADC4A52D50 /* audio_fifo.h */,
+				4D7D8533267871E64B4269F88AA925E7 /* avassert.h */,
+				F529D6DBFE28CB9D2D10D014C22CA13A /* avcodec.h */,
+				17B1DB40F7F02C84D694849895ACD9E2 /* avconfig.h */,
+				C8051252841A43BC7DA1C3B725216D6F /* avdct.h */,
+				179E683A73F404CA26BD334C193ADB45 /* avdevice.h */,
+				3153DD7C2BF626C1538A431AC1307EF7 /* avfft.h */,
+				A05E3932A8B886B1B4FFBCD925AAA461 /* avfilter.h */,
+				1C07EA03D8A13D21AED46D8FED13DFFE /* avfiltergraph.h */,
+				94616B3F3FA6C5598C38EA490ADD2992 /* avformat.h */,
+				46E7B67E87C9D6F7ACDBDB9F7A8A7389 /* avio.h */,
+				2A6DD2C090B5BE4360E690E09290C72B /* avstring.h */,
+				6DA0A120C592009E6B3CC4C943F46462 /* avutil.h */,
+				DF3B60E9C24CE85FCBB83C163B5B6866 /* base64.h */,
+				251AA5ADE1C54EB14460C181F7E695EB /* blowfish.h */,
+				A88EC5E978A58A80D8D66E70EA187C16 /* bprint.h */,
+				086E8CD0149F28278F98E2CC23996B4D /* bswap.h */,
+				9DECC968077F97E8240AA89F1A764B99 /* buffer.h */,
+				B1F45C79BC444B130AD563B1302729E1 /* buffersink.h */,
+				33C191862ADCF84FC567A8BC57A31CB0 /* buffersrc.h */,
+				14C741A6C131CE3EFA587063A8FC85B1 /* camellia.h */,
+				0A1709BEA4317CD22EB9B40B55D684A1 /* cast5.h */,
+				B1D97657BAC1982E77962562D97EA4E8 /* channel_layout.h */,
+				5393E04051C6AF0075E32EA89185DEA6 /* common.h */,
+				FEB604B5B9D28A4E987EA0629C17D043 /* cpu.h */,
+				D987F5B7CAF94C9A8478262A50BB1AAE /* crc.h */,
+				BF950B1B8D9E305FB3ECA0265771CBC0 /* d3d11va.h */,
+				86ADF39463A56F8C719F8CFCB6940A9F /* des.h */,
+				210554A1E2611B00B49B1AD438FB6DC7 /* dict.h */,
+				4999280D83073797DBB71EC19A67468B /* dirac.h */,
+				39AE2B91FBB8D0C6501BE891A6B045D2 /* display.h */,
+				FF71928B4507557FB52B3CFB92808CAB /* downmix_info.h */,
+				41EE24A9643234B508109326F4734CF4 /* dv_profile.h */,
+				2988743A5D5E3AFA5FFB58B2718AAA74 /* dxva2.h */,
+				414656856C6ECB3C4961DB8F3790AEFE /* error.h */,
+				CF6127E63890BB7ED0FD634C11A5047D /* eval.h */,
+				4FC09EF519664E34082712A3DD605EE3 /* ffmpeg.h */,
+				4B0666FD4342240198CA1051FF9B1BDD /* ffversion.h */,
+				6FCAB43F01EF6FFA1A2DAAD3A816910B /* fifo.h */,
+				45939893BF0112E07BA5F66EAD01B16D /* file.h */,
+				8DDA493550330281007DF1C68C4D575F /* frame.h */,
+				6DE3FC751DE9B7CC9F8DA02C92F390D3 /* hash.h */,
+				E36FF39189D6494EE03AA5FDD84B16B0 /* hmac.h */,
+				FE349CF7668598F060C6F62A53E50AC8 /* hwcontext.h */,
+				CE79E2CA7DC1975D19876923A4A80F83 /* hwcontext_cuda.h */,
+				7C36361F3829C4BB81D68D33C1D06753 /* hwcontext_d3d11va.h */,
+				3104EA6FA33010C93CB4FDE8EAE61120 /* hwcontext_drm.h */,
+				BB9DC917E531E2A96A09318E5F06257B /* hwcontext_dxva2.h */,
+				51981E2461C90598C40277F547564B1C /* hwcontext_qsv.h */,
+				36F9D4A24B5869CBA89B1DECFA1A3ABA /* hwcontext_vaapi.h */,
+				1C5267E5AB0CCB1CB13F207DD52E7781 /* hwcontext_vdpau.h */,
+				2BAD45892BA75946FB8F4453B54CCF60 /* hwcontext_videotoolbox.h */,
+				021078F80F87CDA514043102A27C281D /* imgutils.h */,
+				14EA7D5C0BE9DB97B16D889E415F37BC /* intfloat.h */,
+				1FFF3E010B7732B1E05689919D6C71A5 /* intreadwrite.h */,
+				43A679878222CFD51AA8419AD145B1F6 /* inttypes.h */,
+				874ABED7598FD58107A0E98853C82F5E /* jni.h */,
+				4979EE67C90F449505F5E67C5009D6BF /* lfg.h */,
+				9EBF9895726D9086DBCD009F9962F1EF /* libavcodecVersion.h */,
+				CF1E1C463BD2A80A8E0AEEC3F373CD10 /* libavdeviceVersion.h */,
+				07F5F3C5414FE90B74C9D14D9703472C /* libavfilterVersion.h */,
+				5322D83484E395948F509DBD32AEF9AE /* libavformatVersion.h */,
+				DBA752FF2E37AA50E583BE3CDEAA4A79 /* libavutilVersion.h */,
+				F3D5D8D2FF8A1E9E7FFF885E6591793F /* libswresampleVersion.h */,
+				199398FABA81FE31DA2E0B9B09ABDD17 /* libswscaleVersion.h */,
+				9771B11B9B2B52E1356B169B7357411F /* log.h */,
+				151DFD0A58C845828E784C580F4189E6 /* lzo.h */,
+				797DD861A0434DA81D1F7BD8F0BB16F2 /* macros.h */,
+				3B2D14DE3F153721DBD7B837846107FE /* mastering_display_metadata.h */,
+				9A541B77DE74C23DF26382A298C6DAD0 /* mathematics.h */,
+				09EF065C44F3FA064A38D43CD81AB17F /* md5.h */,
+				366EE94657D8F69FD368EA670E429C36 /* mediacodec.h */,
+				B4251050060ED11FFEF23D4E931ED00A /* mem.h */,
+				23420D75BE18C6F405CD0F72F93A3AF2 /* motion_vector.h */,
+				D3F45F17FD3F75070C51D6389B29BF7A /* murmur3.h */,
+				AEE56775EAFC7489BC197FCC8DA165A2 /* opt.h */,
+				2D6A043A7F8A1B639557DEF55531FA56 /* parseutils.h */,
+				20D65AA37EA1752615CEC1812B0B41E7 /* pixdesc.h */,
+				1E34BAE99A1E947606CFA02FEC7F5A00 /* pixelutils.h */,
+				E0F0D3D8FDFC0B73CC6298DA1348AADD /* pixfmt.h */,
+				F5E15573C104DBDD5F1B57F98EFD2EA1 /* qsv.h */,
+				30EE053669765606BDFE3DC3E42A594A /* random_seed.h */,
+				60F1E845D96A35FC8A6CF33678B6F832 /* rational.h */,
+				203361B30DB88675C79FD2EE57F8DB28 /* rc4.h */,
+				98F15E62623C2705CCA6429C03019361 /* replaygain.h */,
+				81EB2D2102AE04AC77BD6F36C2228662 /* ripemd.h */,
+				E76DB3B0CBC0037129DB0F4B93417B13 /* samplefmt.h */,
+				D2422A1B5460082BCF707AAD437B10A5 /* sha.h */,
+				93F905FCE70525E5637CD9F182204235 /* sha512.h */,
+				428504B7EAB6D05D3E3F1D16DB48C401 /* spherical.h */,
+				7CACCD834FACAC1D9608851C521F9386 /* stereo3d.h */,
+				E701E654508FEA3FF806AC637CC7513B /* swresample.h */,
+				C73969C9EBDB723898DC7CD500772006 /* swscale.h */,
+				E5CEECE26A008562556F9DBA398DACA5 /* tea.h */,
+				C844C613A4B97A73001C4148BCABEB34 /* threadmessage.h */,
+				B04CFFBA4019DEFC5F16E327A28B516C /* time.h */,
+				01D9ADE70AD838FD4EB0B5CACF0A9260 /* timecode.h */,
+				3CFF72034EE33B7BD656E910CB718468 /* timestamp.h */,
+				736BD8D0E2534287E36EE008663ABEE3 /* tree.h */,
+				123753B0AB9A81E9F48B785DF32C8182 /* twofish.h */,
+				E99EE0D6F4F1DFCE6AC9F6164AB6F860 /* vaapi.h */,
+				01DCAA64AFD819F1E7130DBBD4874263 /* vda.h */,
+				B3999AACE621C99F26A7B23D10D3642E /* vdpau.h */,
+				06ADA23F97664D0AA6946178D59AC9B4 /* videotoolbox.h */,
+				37A95FE6333CE70E6E21A7C744562640 /* vorbis_parser.h */,
+				182D27F066946DD13DE4FF35DD5D7D7E /* xtea.h */,
+				CFE06D02D92CED92632D29838429CD7B /* xvmc.h */,
+				2051006C9FD594C18E51FFF619B2C2CF /* Frameworks */,
+			);
+			name = "FFmpeg-iOS";
+			sourceTree = "<group>";
+		};
+		4BE5C372075D4ABA8793F9054E3E79BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76721C6A67F2B17F4E03AE88E4F34DFA /* TIoTThridSDK.debug.xcconfig */,
+				D7E6F4A9BCEF879C4B79E353AC691A6D /* TIoTThridSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TIoTThridSDK";
 			sourceTree = "<group>";
 		};
 		7483E10BEF9F6CE5C27F434912957143 /* Targets Support Files */ = {
@@ -119,43 +416,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		752D3C1E78318861A01443B436BD9CCB /* Pod */ = {
+		88394E9ECB9AE226C04DE83CD4DC026B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65656250D8802A26964AA49EAF9284A7 /* LICENSE */,
-				640FDB0BA7B3EDE898996A3DB2C9ED37 /* README.md */,
-				54B89EC7C7053D285899E53C5C3E4980 /* TIoTThridSDK.podspec */,
+				3E1D6A34BC078C82785DDBF231BD65EE /* libWeChatSDK.a */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		896BD219AA14B04654B5B9A462B93537 /* WechatOpenSDK_NoPay */ = {
-			isa = PBXGroup;
-			children = (
-				0EFB908957D88AAFC21D4670535A8206 /* WechatAuthSDK.h */,
-				810E619E226459A6AA0711583C324635 /* WXApi.h */,
-				68ED8887B9E83B26374844D9C5457945 /* WXApiObject.h */,
-				D67A3AF9E5B46F90659203A0A0337354 /* Frameworks */,
-			);
-			name = WechatOpenSDK_NoPay;
-			sourceTree = "<group>";
-		};
-		A07EE67F6D583678E749046007300B3D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				144388FF7B41E3CCE422FF78AAE4F410 /* TIoTThridSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B9E5459494621B9A77581DA7D4548F89 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ECD477A7DD7F3323CFABF1D593C8741C /* TIoTThridSDK.debug.xcconfig */,
-				CB74B38C769548D3500C3E0C6F0E059B /* TIoTThridSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TIoTThridSDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -164,6 +430,17 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6DEADD058206CBB9390B855DCF41FE0 /* WechatOpenSDK_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				0F442C9F6000EBFDDAD905DDEA91F4FD /* WechatAuthSDK.h */,
+				B5DB273EC9D0001D530551C7AA906EB0 /* WXApi.h */,
+				F6C3B277AF26F94603D716E6D7A8353A /* WXApiObject.h */,
+				88394E9ECB9AE226C04DE83CD4DC026B /* Frameworks */,
+			);
+			name = WechatOpenSDK_NoPay;
 			sourceTree = "<group>";
 		};
 		C7FD23A451C3031DC1DA342ED7509AC7 /* Products */ = {
@@ -178,7 +455,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A07EE67F6D583678E749046007300B3D /* Development Pods */,
+				DF377481C3A8131B419E1FBE76C45659 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C7FD23A451C3031DC1DA342ED7509AC7 /* Products */,
 				7483E10BEF9F6CE5C27F434912957143 /* Targets Support Files */,
@@ -193,23 +470,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D67A3AF9E5B46F90659203A0A0337354 /* Frameworks */ = {
+		DF377481C3A8131B419E1FBE76C45659 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FC64D86AE8426EF86CE664C654B3B1F /* libWeChatSDK.a */,
+				3AF17C97B7B6D8757370E1974E91674B /* TIoTThridSDK */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F58933DB9B318765C6A5F363A0DA2BCB /* TPNS-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3B62C71F42A67C856E9BE775FA440DA0 /* XGForFreeVersion.h */,
-				38C5F77AFA5AB9F0C520A43600C846E3 /* XGPush.h */,
-				627E6F81108454799304A18D330F11C0 /* XGPushPrivate.h */,
-				3CB944CADCBE257F94CCED1B94EA19CD /* Frameworks */,
-			);
-			name = "TPNS-iOS";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +637,7 @@
 		};
 		28B153F9E8913C87B366A5B2AFFC1E0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB74B38C769548D3500C3E0C6F0E059B /* TIoTThridSDK.release.xcconfig */;
+			baseConfigurationReference = D7E6F4A9BCEF879C4B79E353AC691A6D /* TIoTThridSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -420,7 +686,7 @@
 		};
 		89A6FA5E180A7B2651E3A6E0DEF82D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECD477A7DD7F3323CFABF1D593C8741C /* TIoTThridSDK.debug.xcconfig */;
+			baseConfigurationReference = 76721C6A67F2B17F4E03AE88E4F34DFA /* TIoTThridSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;

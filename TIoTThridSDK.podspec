@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TIoTThridSDK'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '该仓库为方便个人仓库构建使用，如有其他需求还请从官网下载原SDK'
 
   s.description      = <<-DESC
@@ -49,4 +49,12 @@ Pod::Spec.new do |s|
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
   
+  s.subspec 'XP2P-iOS' do |ss|
+    ss.source_files          = 'TIoTThridSDK/XP2P-iOS/Classes/**/*'
+    ss.vendored_libraries    = 'TIoTThridSDK/XP2P-iOS/*.a'
+    ss.frameworks            = "NetworkExtension", "CoreGraphics", "SystemConfiguration", "Foundation", "UIKit"
+    ss.libraries             = 'c++', 'sqlite3', 'z'
+    ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  end
 end

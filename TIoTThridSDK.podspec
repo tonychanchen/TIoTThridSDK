@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TIoTThridSDK'
-  s.version          = '1.0.4'
+  s.version          = ENV['LIB_VERSION'] || '1.0.0'
   s.summary          = '该仓库为方便个人仓库构建使用，如有其他需求还请从官网下载原SDK'
 
   s.description      = <<-DESC

@@ -16,11 +16,14 @@ typedef void (*CallBackFuncData)(uint8_t *data, size_t len);
 #include <jni.h>
 
 __attribute__ ((visibility ("default")))
-int setJavaCallback(JNIEnv *env, jobject obj, const char* name);
+int setJavaCallback(jobject obj);
 #endif
 
 __attribute__ ((visibility ("default")))
 int getCommandRequestWithSync(const char *params, char **buf, size_t *len, uint64_t timeout_us);
+
+__attribute__ ((visibility ("default")))
+int stopAsyncRequest(void *req);
 
 __attribute__ ((visibility ("default")))
 int startServiceWithXp2pInfo(const char* xp2p_info);

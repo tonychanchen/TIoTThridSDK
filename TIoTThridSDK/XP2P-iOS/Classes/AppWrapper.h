@@ -23,9 +23,6 @@ __attribute__ ((visibility ("default")))
 int getCommandRequestWithAsync(const char *params);
 
 __attribute__ ((visibility ("default")))
-int stopAsyncRequest(void *req);
-
-__attribute__ ((visibility ("default")))
 void *startAvRecvService(const char *params);
 
 __attribute__ ((visibility ("default")))

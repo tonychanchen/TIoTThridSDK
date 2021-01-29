@@ -1,8 +1,5 @@
 #ifndef __APPWRAPPER_H_
 #define __APPWRAPPER_H_
-//#ifdef __cplusplus
-//extern "C" {
-//#endif
 
 #include <stddef.h>
 #include <stdint.h>
@@ -23,7 +20,16 @@ __attribute__ ((visibility ("default")))
 int getCommandRequestWithSync(const char *params, char **buf, size_t *len, uint64_t timeout_us);
 
 __attribute__ ((visibility ("default")))
+int getCommandRequestWithAsync(const char *params);
+
+__attribute__ ((visibility ("default")))
 int stopAsyncRequest(void *req);
+
+__attribute__ ((visibility ("default")))
+void *startAvRecvService(const char *params);
+
+__attribute__ ((visibility ("default")))
+int stopAvRecvService(void *req);
 
 __attribute__ ((visibility ("default")))
 int startServiceWithXp2pInfo(const char* xp2p_info);
@@ -57,7 +63,5 @@ void setNativeCallback(CallBackFunc pcallbackFunc);
 
 __attribute__ ((visibility ("default")))
 void setNativeCallback(CallBackFuncData pcallbackFuncData);
-//#ifdef __cplusplus
-//}
-//#endif
+
 #endif

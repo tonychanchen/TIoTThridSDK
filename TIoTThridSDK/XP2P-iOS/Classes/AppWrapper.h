@@ -9,7 +9,7 @@
 typedef void (*CallBackFunc)(int type, char *format);
 typedef void (*CallBackFuncData)(uint8_t *data, size_t len);
 
-static const char * VIDEOSDKVERSION = "1.0.0";
+static const char * VIDEOSDKVERSION = "79483c5";
 
 #ifdef BUILD_WITH_ANDROID_JNI
 #include <jni.h>

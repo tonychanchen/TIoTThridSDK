@@ -9,14 +9,16 @@
 typedef void (*CallBackFunc)(int type, char *format);
 typedef void (*CallBackFuncData)(uint8_t *data, size_t len);
 
-static const char * VIDEOSDKVERSION = "19d123a";
+static const char * VIDEOSDKVERSION = "ca0ba1d";
 
-#ifdef BUILD_WITH_ANDROID_JNI
-#include <jni.h>
+//type=0:close通知； type=1:日志； type=2:json;
+typedef void (*msg_handle_t)(int type, const char* msg, int len);
 
-__attribute__ ((visibility ("default")))
-int setJavaCallback(jobject obj);
-#endif
+//type=0:视频数据； type=1:音频数据;  type=2:flv数据; 
+typedef void (*av_recv_handle_t)(int type, uint8_t* recv_buf, size_t recv_len);
+
+void setUserCallbackToXp2p(av_recv_handle_t recv_handle, msg_handle_t msg_handle);
+
 
 __attribute__ ((visibility ("default")))
 int getCommandRequestWithSync(const char *params, char **buf, size_t *len, uint64_t timeout_us);

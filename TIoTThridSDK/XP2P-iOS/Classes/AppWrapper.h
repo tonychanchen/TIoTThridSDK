@@ -9,10 +9,13 @@
 typedef void (*CallBackFunc)(int type, char *format);
 typedef void (*CallBackFuncData)(uint8_t *data, size_t len);
 
-static const char * VIDEOSDKVERSION = "c7507e1";
+static const char * VIDEOSDKVERSION = "488c8aa";
 
-//type=0:close通知； type=1:日志； type=2:json;
-typedef void (*msg_handle_t)(int type, const char* msg, int len);
+/*
+ * type=0:close通知； type=1:日志； type=2:json;
+ * native返回给SDK结果：char*
+ */
+typedef char* (*msg_handle_t)(int type, const char* msg, int len);
 
 //type=0:视频数据； type=1:音频数据;  type=2:flv数据; 
 typedef void (*av_recv_handle_t)(int type, uint8_t* recv_buf, size_t recv_len);

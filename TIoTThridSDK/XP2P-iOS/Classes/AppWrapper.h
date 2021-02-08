@@ -9,7 +9,7 @@
 typedef void (*CallBackFunc)(int type, char *format);
 typedef void (*CallBackFuncData)(uint8_t *data, size_t len);
 
-static const char * VIDEOSDKVERSION = "488c8aa";
+static const char * VIDEOSDKVERSION = "7cd85d5";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;

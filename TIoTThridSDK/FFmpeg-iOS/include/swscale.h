@@ -32,7 +32,7 @@
 #include "avutil.h"
 #include "log.h"
 #include "pixfmt.h"
-#include "libswscaleVersion.h"
+#include "version.h"
 
 /**
  * @defgroup libsws libswscale

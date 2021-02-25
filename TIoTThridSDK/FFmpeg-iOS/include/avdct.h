@@ -19,7 +19,7 @@
 #ifndef AVCODEC_AVDCT_H
 #define AVCODEC_AVDCT_H
 
-#include "opt.h"
+#include "libavutil/opt.h"
 
 /**
  * AVDCT context.
@@ -67,6 +67,10 @@ typedef struct AVDCT {
                        ptrdiff_t line_size);
 
     int bits_per_sample;
+
+    void (*get_pixels_unaligned)(int16_t *block /* align 16 */,
+                       const uint8_t *pixels,
+                       ptrdiff_t line_size);
 } AVDCT;
 
 /**

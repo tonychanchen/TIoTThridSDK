@@ -32,7 +32,7 @@
 #include <stdint.h>
 
 #include "attributes.h"
-#include "libavutilVersion.h"
+#include "version.h"
 
 /**
  * @defgroup lavu_sha512 SHA-512

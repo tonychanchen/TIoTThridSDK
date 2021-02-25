@@ -86,7 +86,7 @@
  * libavutil is designed to be modular. In most cases, in order to use the
  * functions provided by one component of libavutil you must explicitly include
  * the specific header containing that feature. If you are only using
- * media-related components, you could simply include avutil.h, which
+ * media-related components, you could simply include libavutil/avutil.h, which
  * brings in most of the "core" components.
  *
  * @{
@@ -296,7 +296,7 @@ char av_get_picture_type_char(enum AVPictureType pict_type);
 #include "common.h"
 #include "error.h"
 #include "rational.h"
-#include "libavutilVersion.h"
+#include "version.h"
 #include "macros.h"
 #include "mathematics.h"
 #include "log.h"

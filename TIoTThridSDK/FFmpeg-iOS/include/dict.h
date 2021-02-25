@@ -32,7 +32,7 @@
 
 #include <stdint.h>
 
-#include "libavutilVersion.h"
+#include "version.h"
 
 /**
  * @addtogroup lavu_dict AVDictionary

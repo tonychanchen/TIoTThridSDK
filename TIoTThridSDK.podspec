@@ -58,10 +58,19 @@ Pod::Spec.new do |s|
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
   
-    s.subspec 'Faac-iOS' do |ss|
+  s.subspec 'Faac-iOS' do |ss|
     ss.source_files          = 'TIoTThridSDK/Faac-iOS/Classes/**/*'
     ss.vendored_libraries    = 'TIoTThridSDK/Faac-iOS/*.a'
     ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
+  
+  s.subspec 'IJKPlayer-iOS' do |ss|
+    ss.vendored_frameworks   = 'TIoTThridSDK/IJKPlayer-iOS/IJKMediaFramework.framework'
+    ss.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
+    ss.libraries   = "bz2", "z", "stdc++"
+    ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  end
+  
 end

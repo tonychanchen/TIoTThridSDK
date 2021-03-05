@@ -1,10 +1,14 @@
 #ifndef __APPWRAPPER_H_
 #define __APPWRAPPER_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stddef.h>
 #include <stdint.h>
 
-static const char * VIDEOSDKVERSION = "83e73778";
+static const char * VIDEOSDKVERSION = "88158470";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;
@@ -55,5 +59,9 @@ int dataSend(uint8_t *data, size_t len);
 
 __attribute__ ((visibility ("default")))
 void stopService();
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

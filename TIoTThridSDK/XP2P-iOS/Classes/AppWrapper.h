@@ -3,13 +3,8 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include <string>
 
-//type=1:日志； type=2:json;
-typedef void (*CallBackFunc)(int type, char *format);
-typedef void (*CallBackFuncData)(uint8_t *data, size_t len);
-
-static const char * VIDEOSDKVERSION = "c4488bcd";
+static const char * VIDEOSDKVERSION = "83e73778";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;
@@ -38,7 +33,7 @@ __attribute__ ((visibility ("default")))
 int startServiceWithXp2pInfo(const char* xp2p_info);
 
 __attribute__ ((visibility ("default")))
-std::string delegateHttpFlv();
+const char *delegateHttpFlv();
 
 __attribute__ ((visibility ("default")))
 void *runSendService();
@@ -60,11 +55,5 @@ int dataSend(uint8_t *data, size_t len);
 
 __attribute__ ((visibility ("default")))
 void stopService();
-
-__attribute__ ((visibility ("default")))
-void setNativeCallback(CallBackFunc pcallbackFunc);
-
-__attribute__ ((visibility ("default")))
-void setNativeCallback(CallBackFuncData pcallbackFuncData);
 
 #endif

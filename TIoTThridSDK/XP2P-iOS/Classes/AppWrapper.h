@@ -8,7 +8,7 @@ extern "C" {
 #include <stddef.h>
 #include <stdint.h>
 
-static const char * VIDEOSDKVERSION = "452586ed";
+static const char * VIDEOSDKVERSION = "0283b629";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;

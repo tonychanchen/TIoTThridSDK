@@ -10,7 +10,7 @@ extern "C" {
 
 #define MAX_SIZE_OF_PARAMS 3000
 
-static const char * VIDEOSDKVERSION = "21e44032";
+static const char * VIDEOSDKVERSION = "544a26e4";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;

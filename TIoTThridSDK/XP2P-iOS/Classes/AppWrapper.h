@@ -8,7 +8,9 @@ extern "C" {
 #include <stddef.h>
 #include <stdint.h>
 
-static const char * VIDEOSDKVERSION = "d5f8fb1a";
+#define MAX_SIZE_OF_PARAMS 3000
+
+static const char * VIDEOSDKVERSION = "21e44032";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;

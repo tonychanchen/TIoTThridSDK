@@ -1,6 +1,7 @@
 #ifndef __APPWRAPPER_H_
 #define __APPWRAPPER_H_
 
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -8,9 +9,7 @@ extern "C" {
 #include <stddef.h>
 #include <stdint.h>
 
-#define MAX_SIZE_OF_PARAMS 3000
-
-static const char * VIDEOSDKVERSION = "dd238b2f";
+static const char * VIDEOSDKVERSION = "a22f8365";
 
 /*
  * type=0:close通知； type=1:日志； type=2:json;

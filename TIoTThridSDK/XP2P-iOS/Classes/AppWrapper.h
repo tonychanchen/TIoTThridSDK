@@ -10,13 +10,21 @@ extern "C" {
 
 #define MAX_SIZE_OF_PARAMS 3000
 
-static const char * VIDEOSDKVERSION = "2b7afe4b";
+static const char * VIDEOSDKVERSION = "02837e6f";
 
+enum XP2PType {
+    XP2PTypeClose   = 1000, //数据传输完成
+    XP2PTypeLog     = 1001, //日志输出
+    XP2PTypeCmd     = 1002, //command json
+    XP2PTypeDisconnect  = 1003, //p2p链路断开
+    XP2PTypeSaveFileOn  = 8000, //获取保存音视频流开关状态
+    XP2PTypeSaveFileUrl = 8001 //获取音视频流保存路径
+};
 /*
  * type=0:close通知； type=1:日志； type=2:json;
  * native返回给SDK结果：char*
  */
-typedef char* (*msg_handle_t)(const char *id, int type, const char* msg);
+typedef char* (*msg_handle_t)(const char *id, XP2PType type, const char* msg);
 
 typedef void (*av_recv_handle_t)(const char *id, uint8_t* recv_buf, size_t recv_len);
 

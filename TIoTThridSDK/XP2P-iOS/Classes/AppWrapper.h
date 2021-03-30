@@ -10,7 +10,7 @@ extern "C" {
 
 #define MAX_SIZE_OF_PARAMS 3000
 
-static const char * VIDEOSDKVERSION = "d22a9887";
+static const char * VIDEOSDKVERSION = "e7f27f0c";
 
 enum XP2PType {
     XP2PTypeClose   = 1000, //数据传输完成
@@ -21,7 +21,7 @@ enum XP2PType {
     XP2PTypeSaveFileUrl = 8001 //获取音视频流保存路径
 };
 
-typedef char* (*msg_handle_t)(const char *id, XP2PType type, const char* msg);
+typedef const char* (*msg_handle_t)(const char *id, XP2PType type, const char* msg);
 typedef void (*av_recv_handle_t)(const char *id, uint8_t* recv_buf, size_t recv_len);
 
 /**

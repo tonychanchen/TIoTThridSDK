@@ -10,7 +10,7 @@ extern "C" {
 
 #define MAX_SIZE_OF_PARAMS 3000
 
-static const char * VIDEOSDKVERSION = "3489f900";
+static const char * VIDEOSDKVERSION = "ae6877d5";
 
 enum XP2PType {
     XP2PTypeClose   = 1000, //数据传输完成
@@ -19,6 +19,17 @@ enum XP2PType {
     XP2PTypeDisconnect  = 1003, //p2p链路断开
     XP2PTypeSaveFileOn  = 8000, //获取保存音视频流开关状态
     XP2PTypeSaveFileUrl = 8001 //获取音视频流保存路径
+};
+
+enum XP2PErrCode {
+    XP2PERRNONE   = 0, //成功
+    XP2PERRINITPRM     = -1000, //入参为空
+    XP2PERRGETXP2PINFO     = -1001, //SDK内部请求xp2p info失败
+    XP2PERRPROXYINIT  = -1002, //本地p2p代理初始化失败
+    XP2PERRUNINIT  = -1003, //数据接收/发送服务未初始化
+    XP2PERRENCRYPT = -1004, //数据加密失败
+    XP2PERRTIMEOUT = -1005, //请求超时
+    XP2PERRERROR = -1006 //请求错误
 };
 
 typedef const char* (*msg_handle_t)(const char *id, XP2PType type, const char* msg);
@@ -82,12 +93,10 @@ int stopAvRecvService(const char *id, void *req);
  * @param id: 目标camera在app端的唯一标识符
  * @param product_id: 产品ID
  * @param device_name: 设备名称
- * @param xp2p_info_attr: xp2p属性，当前版本固定为`_sys_xp2p_info`，若xp2p_info已获取，该参数可传入null
  * @param xp2p_info: xp2p信息
  * @return 0 为成功
  */
-int startServiceWithXp2pInfo(const char* id, const char *product_id, const char *device_name,
-        const char *xp2p_info_attr,  const char* xp2p_info);
+int startServiceWithXp2pInfo(const char* id, const char *product_id, const char *device_name, const char* xp2p_info);
 
 /**
  * @brief 获取本地代理url

@@ -10,7 +10,7 @@ extern "C" {
 
 #define MAX_SIZE_OF_PARAMS 3000
 
-static const char * VIDEOSDKVERSION = "2eb221ea";
+static const char * VIDEOSDKVERSION = "151378f3";
 
 enum XP2PType {
     XP2PTypeClose   = 1000, //数据传输完成

@@ -14,19 +14,7 @@ jobs:
     
     - name: Deploy to CocoapodsPre
       run: |
-        set -eo pipefail
-        
-        rtt=$(git describe --tags `git rev-list --tags --max-count=1`)
-        rc=$(git rev-parse --short HEAD)
-        rbbb=$(git branch --contains $rtt | grep '*')
-        rbb=$(git symbolic-ref --short -q HEAD)
-        rb=$(git rev-parse --abbrev-ref HEAD)
-
-        echo $rtt
-        echo $rc
-        echo $rb
-        echo $rbb
-        echo $rbbb
+        sh .github/workflows/build_enet_ios.sh
 
         VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)
         echo $VERSION

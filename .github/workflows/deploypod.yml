@@ -16,6 +16,19 @@ jobs:
       run: |
         set -eo pipefail
         
+        rtt=$(git describe --tags `git rev-list --tags --max-count=1`)
+        rc=$(git rev-parse --short HEAD)
+        rb=$(git rev-parse --abbrev-ref HEAD)
+        rbb=$(git symbolic-ref --short -q HEAD)
+        rbbb=$(git branch --contains $rtt | grep '*')
+        
+        echo $rtt
+        echo $rc
+        echo $rb
+        echo $rbb
+        echo $rbbb
+        
+        
         VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)
         echo $VERSION
         export LIB_VERSION=$VERSION

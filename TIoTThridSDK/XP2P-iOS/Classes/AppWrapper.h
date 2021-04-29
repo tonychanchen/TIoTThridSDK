@@ -11,13 +11,15 @@ extern "C" {
 
 #define MAX_SIZE_OF_PARAMS 3000
 
-static const char * VIDEOSDKVERSION = "v2.0.x+git.fdabfb40";
+static const char * VIDEOSDKVERSION = "1a8e4426";
 
 typedef enum {
     XP2PTypeClose   = 1000, //数据传输完成
     XP2PTypeLog     = 1001, //日志输出
     XP2PTypeCmd     = 1002, //command json
     XP2PTypeDisconnect  = 1003, //p2p链路断开
+    XP2PTypeDetectReady  = 1004, //p2p链路初始化成功
+    XP2PTypeDetectError  = 1005, //p2p链路初始化失败
     XP2PTypeSaveFileOn  = 8000, //获取保存音视频流开关状态
     XP2PTypeSaveFileUrl = 8001 //获取音视频流保存路径
 } XP2PType;
@@ -30,8 +32,7 @@ typedef enum {
     XP2PERRUNINIT  = -1003, //数据接收/发送服务未初始化
     XP2PERRENCRYPT = -1004, //数据加密失败
     XP2PERRTIMEOUT = -1005, //请求超时
-    XP2PERRERROR    = -1006, //请求错误
-    XP2PERRVERSION  = -1007 //设备版本过低，请升级设备固件
+    XP2PERRERROR = -1006 //请求错误
 } XP2PErrCode;
 
 typedef const char* (*msg_handle_t)(const char *id, XP2PType type, const char* msg);
